@@ -1,0 +1,11 @@
+ang = "Hello world!"
+print(ang.count("l")) #count counts number of l
+print(len(ang))       # len counts the number of alphabets
+
+x="sgsyugya"
+l=[x]
+print(len(l))
+
+
+if l.count(x)==1:   #count mtlb element hay yahn
+    print("hurrah")

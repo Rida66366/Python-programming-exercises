@@ -1,0 +1,16 @@
+x=3
+y=4
+a_list=["ali","sun"]
+
+b_list=[y]*10
+giant_list= a_list+b_list
+
+print("a_list has %s objects" % len(a_list))
+print("b_list has %d objects" % len(b_list))
+print(giant_list)
+print("number of elements in giant_list= %d" % len(giant_list))
+
+if len(a_list)==2 and b_list.count(y)==10:
+    print("hurrah")
+if giant_list.count(x)==2 or giant_list.count(y)==10:
+    print("superb")

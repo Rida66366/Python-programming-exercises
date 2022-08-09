@@ -1,0 +1,11 @@
+name="raza"
+inyo=5
+h=4.5
+print("%s is %d years old"%(name, inyo))
+if name=="raza":
+    print("name is %s" %name)
+if isinstance (inyo, int) and inyo==5:
+    print("number_int= %d" %inyo)
+if isinstance (h, float)and h==4.5:
+    print("float= %f" %h)
+ 

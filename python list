@@ -1,0 +1,16 @@
+
+number=[]
+string=[]
+names=["rida", "ahsan", "sonia"]
+second_name= names[1]
+print("The second name of the names list is %s" % second_name)
+
+number.append(1)
+number.append(2)
+number.append(3)
+
+string.append("hello")
+string.append("world")
+
+print(number)
+print(string)
